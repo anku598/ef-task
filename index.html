@@ -1,482 +1,446 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app">
-      <!-- navbar  -->
 
-      <nav class="nav-wrapper">
-        <div class="logo">
-          <img
-            src="https://static.electronicfirst.com/website/uploads/2023/04/18/header_logo_dark_1681808133_643e5b05223c4.webp"
-            alt=""
-          />
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Electronic First Task</title>
+</head>
+
+<body>
+  <div id="app">
+    <!-- navbar  -->
+
+    <nav class="nav-wrapper">
+      <div class="logo">
+        <img
+          src="https://static.electronicfirst.com/website/uploads/2023/04/18/header_logo_dark_1681808133_643e5b05223c4.webp"
+          alt="" />
+      </div>
+
+      <div class="burger-menu">
+        <p>Menu</p>
+      </div>
+
+      <div class="nav-items">
+        <div class="top-nav">
+          <a href="#">Trending</a>
+          <a href="#">Pre Orders</a>
+          <a href="#">Upcoming </a>
+          <a href="#">Support24/7</a>
         </div>
 
-        <div class="nav-items">
-          <div class="top-nav">
-            <a href="#">Trending</a>
-            <a href="#">PreOrders</a>
-            <a href="#">Upcoming </a>
-            <a href="#">Support24/7</a>
-          </div>
 
-          <div class="main-nav">
-            <a href="#" class="nav-item" data-target="dropdown-pc">
-              <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                <title />
-                <g data-name="1" id="_1">
-                  <path
-                    d="M413,353.15H97.24a43.15,43.15,0,0,1-43.11-43.1V100.36A43.16,43.16,0,0,1,97.24,57.25H413a43.15,43.15,0,0,1,43.1,43.11V310.05A43.14,43.14,0,0,1,413,353.15ZM97.24,87.25a13.12,13.12,0,0,0-13.11,13.11V310.05a13.12,13.12,0,0,0,13.11,13.1H413a13.12,13.12,0,0,0,13.1-13.1V100.36A13.12,13.12,0,0,0,413,87.25Z"
-                  />
-                  <path
-                    d="M324.13,405.65h-138a15,15,0,0,1-14-20.34l20-52.5a15,15,0,0,1,14-9.66h98a15,15,0,0,1,14,9.66l20,52.5a15,15,0,0,1-14,20.34Zm-116.23-30h94.46l-8.57-22.5H216.48Z"
-                  />
-                  <path
-                    d="M354.61,405.65h-199a15,15,0,1,1,0-30h199a15,15,0,0,1,0,30Z"
-                  />
-                  <path
-                    d="M441.13,303.66h-372a15,15,0,1,1,0-30h372a15,15,0,0,1,0,30Z"
-                  />
-                </g>
-              </svg>
-              <p>PC</p>
 
-              <svg class="dropdown-icon" viewBox="0 0 64 64">
-                <g>
-                  <g
-                    id="Icon-Chevron-Left"
-                    transform="translate(237.000000, 335.000000)"
-                  >
-                    <polyline
-                      class="st0"
-                      id="Fill-35"
-                      points="-218.7,-308.6 -216.7,-310.6 -205,-298.8 -193.3,-310.6 -191.3,-308.6 -205,-294.9      -218.7,-308.6    "
-                    />
-                  </g>
-                </g>
-              </svg>
-            </a>
-            <div class="nav-dropdown" id="dropdown-pc">
-              <div class="dropdown-background"></div>
-              <div class="category">
-                <p>Platform</p>
-                <a href="#" class="btn">View All</a>
-              </div>
-
-              <div class="sub-items">
-                <a href="#">
-                  <img src="./assets/logos/steam.png" alt="Steam" />
-                  <p>Steam</p>
-                </a>
-
-                <a href="#">
-                  <img src="./assets/logos/ubisoft.png" alt="Steam" />
-                  <p>Ubisoft Connect</p>
-                </a>
-
-                <a href="#">
-                  <img src="./assets/logos/Ea.png" alt="Steam" />
-                  <p>EA App</p>
-                </a>
-
-                <a href="#">
-                  <img src="./assets/logos/battlenet.png" alt="Steam" />
-                  <p>Battle.net</p>
-                </a>
-
-                <a href="#">
-                  <img src="./assets/logos/steam.png" alt="Steam" />
-                  <p>Rockstar</p>
-                </a>
-
-                <a href="#">
-                  <img src="./assets/logos/Ea.png" alt="Steam" />
-                  <p>GOG.com</p>
-                </a>
-
-                <a href="#">
-                  <img src="./assets/logos/steam.png" alt="Steam" />
-                  <p>Microsoft Store</p>
-                </a>
-
-                <a href="#">
-                  <img src="./assets/logos/steam.png" alt="Steam" />
-                  <p>Epic</p>
-                </a>
-              </div>
-
-              <div class="category">
-                <p>Prepaid Cards</p>
-                <a href="#" class="btn">View All</a>
-              </div>
-
-              <div class="sub-items">
-                <a href="#" class="large-logo">
-                  <img src="./assets/logos/steam.png" alt="Steam" />
-                  <p>Steam Gift Cards</p>
-                </a>
-
-                <a href="#" class="large-logo">
-                  <img src="./assets/logos/steam.png" alt="Steam" />
-                  <p>IG Gift Cards</p>
-                </a>
-
-                <a href="#" class="large-logo">
-                  <img src="./assets/logos/steam.png" alt="Steam" />
-                  <p>Blizzard Gift Cards</p>
-                </a>
-              </div>
-            </div>
-
-            <a href="#" class="nav-item" data-target="dropdown-playstation">
-              <svg viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg">
+        <div class="main-nav">
+          <a href="#" class="nav-item" data-target="dropdown-pc">
+            <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+              <title />
+              <g data-name="1" id="_1">
                 <path
-                  d="M570.9 372.3c-11.3 14.2-38.8 24.3-38.8 24.3L327 470.2v-54.3l150.9-53.8c17.1-6.1 19.8-14.8 5.8-19.4-13.9-4.6-39.1-3.3-56.2 2.9L327 381.1v-56.4c23.2-7.8 47.1-13.6 75.7-16.8 40.9-4.5 90.9.6 130.2 15.5 44.2 14 49.2 34.7 38 48.9zm-224.4-92.5v-139c0-16.3-3-31.3-18.3-35.6-11.7-3.8-19 7.1-19 23.4v347.9l-93.8-29.8V32c39.9 7.4 98 24.9 129.2 35.4C424.1 94.7 451 128.7 451 205.2c0 74.5-46 102.8-104.5 74.6zM43.2 410.2c-45.4-12.8-53-39.5-32.3-54.8 19.1-14.2 51.7-24.9 51.7-24.9l134.5-47.8v54.5l-96.8 34.6c-17.1 6.1-19.7 14.8-5.8 19.4 13.9 4.6 39.1 3.3 56.2-2.9l46.4-16.9v48.8c-51.6 9.3-101.4 7.3-153.9-10z"
-                />
-              </svg>
-              <p>PlayStation</p>
+                  d="M413,353.15H97.24a43.15,43.15,0,0,1-43.11-43.1V100.36A43.16,43.16,0,0,1,97.24,57.25H413a43.15,43.15,0,0,1,43.1,43.11V310.05A43.14,43.14,0,0,1,413,353.15ZM97.24,87.25a13.12,13.12,0,0,0-13.11,13.11V310.05a13.12,13.12,0,0,0,13.11,13.1H413a13.12,13.12,0,0,0,13.1-13.1V100.36A13.12,13.12,0,0,0,413,87.25Z" />
+                <path
+                  d="M324.13,405.65h-138a15,15,0,0,1-14-20.34l20-52.5a15,15,0,0,1,14-9.66h98a15,15,0,0,1,14,9.66l20,52.5a15,15,0,0,1-14,20.34Zm-116.23-30h94.46l-8.57-22.5H216.48Z" />
+                <path d="M354.61,405.65h-199a15,15,0,1,1,0-30h199a15,15,0,0,1,0,30Z" />
+                <path d="M441.13,303.66h-372a15,15,0,1,1,0-30h372a15,15,0,0,1,0,30Z" />
+              </g>
+            </svg>
+            <p>PC</p>
 
-              <svg class="dropdown-icon" viewBox="0 0 64 64">
-                <g>
-                  <g
-                    id="Icon-Chevron-Left"
-                    transform="translate(237.000000, 335.000000)"
-                  >
-                    <polyline
-                      class="st0"
-                      id="Fill-35"
-                      points="-218.7,-308.6 -216.7,-310.6 -205,-298.8 -193.3,-310.6 -191.3,-308.6 -205,-294.9      -218.7,-308.6    "
-                    />
-                  </g>
+            <svg class="dropdown-icon" viewBox="0 0 64 64">
+              <g>
+                <g id="Icon-Chevron-Left" transform="translate(237.000000, 335.000000)">
+                  <polyline class="st0" id="Fill-35"
+                    points="-218.7,-308.6 -216.7,-310.6 -205,-298.8 -193.3,-310.6 -191.3,-308.6 -205,-294.9      -218.7,-308.6    " />
                 </g>
-              </svg>
-            </a>
-
-            <div class="nav-dropdown" id="dropdown-playstation">
-              <div class="dropdown-background"></div>
-              <div class="category">
-                <p>Platform</p>
-                <a href="#" class="btn">View All</a>
-              </div>
-
-              <div class="sub-items">
-                <a href="#">
-                  <p>Steam</p>
-                </a>
-
-                <a href="#">
-                  <p>Steam</p>
-                </a>
-
-                <a href="#">
-                  <p>Steam</p>
-                </a>
-
-                <a href="#">
-                  <p>Steam</p>
-                </a>
-
-                <a href="#">
-                  <p>Steam</p>
-                </a>
-              </div>
-
-              <div class="category">
-                <p>Prepaid Cards</p>
-                <a href="#" class="btn">View All</a>
-              </div>
-
-              <div class="sub-items">
-                <a href="#">
-                  <p>Steam</p>
-                </a>
-
-                <a href="#">
-                  <p>Steam</p>
-                </a>
-              </div>
+              </g>
+            </svg>
+          </a>
+          <div class="nav-dropdown" id="dropdown-pc">
+            <div class="dropdown-background"></div>
+            <div class="category">
+              <p>Platform</p>
+              <a href="#" class="btn">View All</a>
             </div>
 
-            <a href="#" class="nav-item" data-target="dropdown-pc">
-              <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                <title />
-                <g data-name="1" id="_1">
-                  <path
-                    d="M413,353.15H97.24a43.15,43.15,0,0,1-43.11-43.1V100.36A43.16,43.16,0,0,1,97.24,57.25H413a43.15,43.15,0,0,1,43.1,43.11V310.05A43.14,43.14,0,0,1,413,353.15ZM97.24,87.25a13.12,13.12,0,0,0-13.11,13.11V310.05a13.12,13.12,0,0,0,13.11,13.1H413a13.12,13.12,0,0,0,13.1-13.1V100.36A13.12,13.12,0,0,0,413,87.25Z"
-                  />
-                  <path
-                    d="M324.13,405.65h-138a15,15,0,0,1-14-20.34l20-52.5a15,15,0,0,1,14-9.66h98a15,15,0,0,1,14,9.66l20,52.5a15,15,0,0,1-14,20.34Zm-116.23-30h94.46l-8.57-22.5H216.48Z"
-                  />
-                  <path
-                    d="M354.61,405.65h-199a15,15,0,1,1,0-30h199a15,15,0,0,1,0,30Z"
-                  />
-                  <path
-                    d="M441.13,303.66h-372a15,15,0,1,1,0-30h372a15,15,0,0,1,0,30Z"
-                  />
-                </g>
-              </svg>
-              <p>Xbox</p>
+            <div class="sub-items">
+              <a href="#">
+                <img src="./assets/logos/steam.png" alt="Steam" />
+                <p>Steam</p>
+              </a>
 
-              <svg class="dropdown-icon" viewBox="0 0 64 64">
-                <g>
-                  <g
-                    id="Icon-Chevron-Left"
-                    transform="translate(237.000000, 335.000000)"
-                  >
-                    <polyline
-                      class="st0"
-                      id="Fill-35"
-                      points="-218.7,-308.6 -216.7,-310.6 -205,-298.8 -193.3,-310.6 -191.3,-308.6 -205,-294.9      -218.7,-308.6    "
-                    />
-                  </g>
-                </g>
-              </svg>
-            </a>
-            <div class="nav-dropdown" id="dropdown-pc">
-              <div class="dropdown-background"></div>
-              <div class="category">
-                <p>Platform</p>
-                <a href="#" class="btn">View All</a>
-              </div>
+              <a href="#">
+                <img src="./assets/logos/ubisoft.png" alt="Steam" />
+                <p>Ubisoft Connect</p>
+              </a>
 
-              <div class="sub-items">
-                <a href="#">
-                  <p>Steam</p>
-                </a>
+              <a href="#">
+                <img src="./assets/logos/Ea.png" alt="Steam" />
+                <p>EA App</p>
+              </a>
 
-                <a href="#">
-                  <p>Steam</p>
-                </a>
+              <a href="#">
+                <img src="./assets/logos/battlenet.png" alt="Steam" />
+                <p>Battle.net</p>
+              </a>
 
-                <a href="#">
-                  <p>Steam</p>
-                </a>
+              <a href="#">
+                <img src="./assets/logos/steam.png" alt="Steam" />
+                <p>Rockstar</p>
+              </a>
 
-                <a href="#">
-                  <p>Steam</p>
-                </a>
+              <a href="#">
+                <img src="./assets/logos/Ea.png" alt="Steam" />
+                <p>GOG.com</p>
+              </a>
 
-                <a href="#">
-                  <p>Steam</p>
-                </a>
-              </div>
+              <a href="#">
+                <img src="./assets/logos/steam.png" alt="Steam" />
+                <p>Microsoft Store</p>
+              </a>
 
-              <div class="category">
-                <p>Prepaid Cards</p>
-                <a href="#" class="btn">View All</a>
-              </div>
-
-              <div class="sub-items">
-                <a href="#">
-                  <p>Steam</p>
-                </a>
-
-                <a href="#">
-                  <p>Steam</p>
-                </a>
-              </div>
+              <a href="#">
+                <img src="./assets/logos/steam.png" alt="Steam" />
+                <p>Epic</p>
+              </a>
             </div>
 
-            <a href="#" class="nav-item" data-target="dropdown-pc">
-              <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                <title />
-                <g data-name="1" id="_1">
-                  <path
-                    d="M413,353.15H97.24a43.15,43.15,0,0,1-43.11-43.1V100.36A43.16,43.16,0,0,1,97.24,57.25H413a43.15,43.15,0,0,1,43.1,43.11V310.05A43.14,43.14,0,0,1,413,353.15ZM97.24,87.25a13.12,13.12,0,0,0-13.11,13.11V310.05a13.12,13.12,0,0,0,13.11,13.1H413a13.12,13.12,0,0,0,13.1-13.1V100.36A13.12,13.12,0,0,0,413,87.25Z"
-                  />
-                  <path
-                    d="M324.13,405.65h-138a15,15,0,0,1-14-20.34l20-52.5a15,15,0,0,1,14-9.66h98a15,15,0,0,1,14,9.66l20,52.5a15,15,0,0,1-14,20.34Zm-116.23-30h94.46l-8.57-22.5H216.48Z"
-                  />
-                  <path
-                    d="M354.61,405.65h-199a15,15,0,1,1,0-30h199a15,15,0,0,1,0,30Z"
-                  />
-                  <path
-                    d="M441.13,303.66h-372a15,15,0,1,1,0-30h372a15,15,0,0,1,0,30Z"
-                  />
-                </g>
-              </svg>
-              <p>Nitendo</p>
-
-              <svg class="dropdown-icon" viewBox="0 0 64 64">
-                <g>
-                  <g
-                    id="Icon-Chevron-Left"
-                    transform="translate(237.000000, 335.000000)"
-                  >
-                    <polyline
-                      class="st0"
-                      id="Fill-35"
-                      points="-218.7,-308.6 -216.7,-310.6 -205,-298.8 -193.3,-310.6 -191.3,-308.6 -205,-294.9      -218.7,-308.6    "
-                    />
-                  </g>
-                </g>
-              </svg>
-            </a>
-            <div class="nav-dropdown" id="dropdown-pc">
-              <div class="dropdown-background"></div>
-              <div class="category">
-                <p>Platform</p>
-                <a href="#" class="btn">View All</a>
-              </div>
-
-              <div class="sub-items">
-                <a href="#">
-                  <p>Steam</p>
-                </a>
-
-                <a href="#">
-                  <p>Steam</p>
-                </a>
-
-                <a href="#">
-                  <p>Steam</p>
-                </a>
-
-                <a href="#">
-                  <p>Steam</p>
-                </a>
-
-                <a href="#">
-                  <p>Steam</p>
-                </a>
-              </div>
-
-              <div class="category">
-                <p>Prepaid Cards</p>
-                <a href="#" class="btn">View All</a>
-              </div>
-
-              <div class="sub-items">
-                <a href="#">
-                  <p>Steam</p>
-                </a>
-
-                <a href="#">
-                  <p>Steam</p>
-                </a>
-              </div>
+            <div class="category">
+              <p>Prepaid Cards</p>
+              <a href="#" class="btn">View All</a>
             </div>
 
-            <div class="search-bar">
-              <input
-                id="search-input"
-                type="text"
-                placeholder="Minicraft,rpg, multiplayer "
-              />
-              <div class="search-icon">
-                <svg height="48" viewBox="0 0 48 48">
-                  <path
-                    d="M31 28h-1.59l-.55-.55c1.96-2.27 3.14-5.22 3.14-8.45 0-7.18-5.82-13-13-13s-13 5.82-13 13 5.82 13 13 13c3.23 0 6.18-1.18 8.45-3.13l.55.55v1.58l10 9.98 2.98-2.98-9.98-10zm-12 0c-4.97 0-9-4.03-9-9s4.03-9 9-9 9 4.03 9 9-4.03 9-9 9z"
-                  />
-                  <path d="M0 0h48v48h-48z" fill="none" />
-                </svg>
-              </div>
+            <div class="sub-items">
+              <a href="#" class="large-logo">
+                <img src="./assets/logos/steam.png" alt="Steam" />
+                <p>Steam Gift Cards</p>
+              </a>
 
-              <div class="close-icon">
-                <svg
-                  height="48"
-                  viewBox="0 0 48 48"
-                  width="48"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M38 12.83l-2.83-2.83-11.17 11.17-11.17-11.17-2.83 2.83 11.17 11.17-11.17 11.17 2.83 2.83 11.17-11.17 11.17 11.17 2.83-2.83-11.17-11.17z"
-                  />
-                  <path d="M0 0h48v48h-48z" fill="none" />
-                </svg>
-              </div>
-            </div>
-          </div>
-        </div>
+              <a href="#" class="large-logo">
+                <img src="./assets/logos/steam.png" alt="Steam" />
+                <p>IG Gift Cards</p>
+              </a>
 
-        <div class="user-nav">
-          <a href="#"> cart </a>
-
-          <a href="#"> profile </a>
-        </div>
-      </nav>
-
-      <!-- main header  -->
-      <section class="main-header">
-        <div class="header-img">
-          <img
-            src="https://images.pexels.com/photos/1677794/pexels-photo-1677794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="Header Image"
-          />
-        </div>
-
-        <div class="header-content">
-          <div class="sub-txt">In 15 days</div>
-          <h2 class="header-title">
-            Starfield Digital Premium Edition + Early Access
-          </h2>
-          <div class="price">
-            <div class="discount-amount">-25%</div>
-            <div class="show-price">74.89€</div>
-          </div>
-        </div>
-
-        <a href="#" class="header-btn">Early Access</a>
-      </section>
-
-      <!-- Product Showcase section -->
-      <section class="product-card-wrapper">
-        <div class="top-section">
-          <div class="section-title">Trending</div>
-          <a href="#" class="cta-btn">View All</a>
-        </div>
-
-        <div class="card-section">
-          <div class="card-item">
-            <div class="card-img">
-              <img
-                src="https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt=""
-              />
-              <div class="discount-price">-26%</div>
-            </div>
-            <div class="product-details-wrapper">
-              <div class="product-name">Sengoku Dynasty</div>
-              <div class="product-price">19.99$</div>
+              <a href="#" class="large-logo">
+                <img src="./assets/logos/steam.png" alt="Steam" />
+                <p>Blizzard Gift Cards</p>
+              </a>
             </div>
           </div>
 
-          <div class="card-item">
-            <div class="card-img">
-              <img
-                src="https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt=""
-              />
-              <div class="discount-price">-26%</div>
+          <a href="#" class="nav-item" data-target="dropdown-playstation">
+            <svg viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M570.9 372.3c-11.3 14.2-38.8 24.3-38.8 24.3L327 470.2v-54.3l150.9-53.8c17.1-6.1 19.8-14.8 5.8-19.4-13.9-4.6-39.1-3.3-56.2 2.9L327 381.1v-56.4c23.2-7.8 47.1-13.6 75.7-16.8 40.9-4.5 90.9.6 130.2 15.5 44.2 14 49.2 34.7 38 48.9zm-224.4-92.5v-139c0-16.3-3-31.3-18.3-35.6-11.7-3.8-19 7.1-19 23.4v347.9l-93.8-29.8V32c39.9 7.4 98 24.9 129.2 35.4C424.1 94.7 451 128.7 451 205.2c0 74.5-46 102.8-104.5 74.6zM43.2 410.2c-45.4-12.8-53-39.5-32.3-54.8 19.1-14.2 51.7-24.9 51.7-24.9l134.5-47.8v54.5l-96.8 34.6c-17.1 6.1-19.7 14.8-5.8 19.4 13.9 4.6 39.1 3.3 56.2-2.9l46.4-16.9v48.8c-51.6 9.3-101.4 7.3-153.9-10z" />
+            </svg>
+            <p>PlayStation</p>
+
+            <svg class="dropdown-icon" viewBox="0 0 64 64">
+              <g>
+                <g id="Icon-Chevron-Left" transform="translate(237.000000, 335.000000)">
+                  <polyline class="st0" id="Fill-35"
+                    points="-218.7,-308.6 -216.7,-310.6 -205,-298.8 -193.3,-310.6 -191.3,-308.6 -205,-294.9      -218.7,-308.6    " />
+                </g>
+              </g>
+            </svg>
+          </a>
+
+          <div class="nav-dropdown" id="dropdown-playstation">
+            <div class="dropdown-background"></div>
+            <div class="category">
+              <p>Platform</p>
+              <a href="#" class="btn">View All</a>
             </div>
-            <div class="product-details-wrapper">
-              <div class="product-name">Sengoku Dynasty</div>
-              <div class="product-price">19.99$</div>
+
+            <div class="sub-items">
+              <a href="#">
+                <p>Steam</p>
+              </a>
+
+              <a href="#">
+                <p>Steam</p>
+              </a>
+
+              <a href="#">
+                <p>Steam</p>
+              </a>
+
+              <a href="#">
+                <p>Steam</p>
+              </a>
+
+              <a href="#">
+                <p>Steam</p>
+              </a>
+            </div>
+
+            <div class="category">
+              <p>Prepaid Cards</p>
+              <a href="#" class="btn">View All</a>
+            </div>
+
+            <div class="sub-items">
+              <a href="#">
+                <p>Steam</p>
+              </a>
+
+              <a href="#">
+                <p>Steam</p>
+              </a>
             </div>
           </div>
 
-          <div class="card-item">
-            <div class="card-img">
-              <img
-                src="https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt=""
-              />
-              <div class="discount-price">-26%</div>
+          <a href="#" class="nav-item" data-target="dropdown-pc">
+            <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+              <title />
+              <g data-name="1" id="_1">
+                <path
+                  d="M413,353.15H97.24a43.15,43.15,0,0,1-43.11-43.1V100.36A43.16,43.16,0,0,1,97.24,57.25H413a43.15,43.15,0,0,1,43.1,43.11V310.05A43.14,43.14,0,0,1,413,353.15ZM97.24,87.25a13.12,13.12,0,0,0-13.11,13.11V310.05a13.12,13.12,0,0,0,13.11,13.1H413a13.12,13.12,0,0,0,13.1-13.1V100.36A13.12,13.12,0,0,0,413,87.25Z" />
+                <path
+                  d="M324.13,405.65h-138a15,15,0,0,1-14-20.34l20-52.5a15,15,0,0,1,14-9.66h98a15,15,0,0,1,14,9.66l20,52.5a15,15,0,0,1-14,20.34Zm-116.23-30h94.46l-8.57-22.5H216.48Z" />
+                <path d="M354.61,405.65h-199a15,15,0,1,1,0-30h199a15,15,0,0,1,0,30Z" />
+                <path d="M441.13,303.66h-372a15,15,0,1,1,0-30h372a15,15,0,0,1,0,30Z" />
+              </g>
+            </svg>
+            <p>Xbox</p>
+
+            <svg class="dropdown-icon" viewBox="0 0 64 64">
+              <g>
+                <g id="Icon-Chevron-Left" transform="translate(237.000000, 335.000000)">
+                  <polyline class="st0" id="Fill-35"
+                    points="-218.7,-308.6 -216.7,-310.6 -205,-298.8 -193.3,-310.6 -191.3,-308.6 -205,-294.9      -218.7,-308.6    " />
+                </g>
+              </g>
+            </svg>
+          </a>
+          <div class="nav-dropdown" id="dropdown-pc">
+            <div class="dropdown-background"></div>
+            <div class="category">
+              <p>Platform</p>
+              <a href="#" class="btn">View All</a>
             </div>
-            <div class="product-details-wrapper">
-              <div class="product-name">Sengoku Dynasty</div>
-              <div class="product-price">19.99$</div>
+
+            <div class="sub-items">
+              <a href="#">
+                <p>Steam</p>
+              </a>
+
+              <a href="#">
+                <p>Steam</p>
+              </a>
+
+              <a href="#">
+                <p>Steam</p>
+              </a>
+
+              <a href="#">
+                <p>Steam</p>
+              </a>
+
+              <a href="#">
+                <p>Steam</p>
+              </a>
+            </div>
+
+            <div class="category">
+              <p>Prepaid Cards</p>
+              <a href="#" class="btn">View All</a>
+            </div>
+
+            <div class="sub-items">
+              <a href="#">
+                <p>Steam</p>
+              </a>
+
+              <a href="#">
+                <p>Steam</p>
+              </a>
+            </div>
+          </div>
+
+          <a href="#" class="nav-item" data-target="dropdown-pc">
+            <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+              <title />
+              <g data-name="1" id="_1">
+                <path
+                  d="M413,353.15H97.24a43.15,43.15,0,0,1-43.11-43.1V100.36A43.16,43.16,0,0,1,97.24,57.25H413a43.15,43.15,0,0,1,43.1,43.11V310.05A43.14,43.14,0,0,1,413,353.15ZM97.24,87.25a13.12,13.12,0,0,0-13.11,13.11V310.05a13.12,13.12,0,0,0,13.11,13.1H413a13.12,13.12,0,0,0,13.1-13.1V100.36A13.12,13.12,0,0,0,413,87.25Z" />
+                <path
+                  d="M324.13,405.65h-138a15,15,0,0,1-14-20.34l20-52.5a15,15,0,0,1,14-9.66h98a15,15,0,0,1,14,9.66l20,52.5a15,15,0,0,1-14,20.34Zm-116.23-30h94.46l-8.57-22.5H216.48Z" />
+                <path d="M354.61,405.65h-199a15,15,0,1,1,0-30h199a15,15,0,0,1,0,30Z" />
+                <path d="M441.13,303.66h-372a15,15,0,1,1,0-30h372a15,15,0,0,1,0,30Z" />
+              </g>
+            </svg>
+            <p>Nitendo</p>
+
+            <svg class="dropdown-icon" viewBox="0 0 64 64">
+              <g>
+                <g id="Icon-Chevron-Left" transform="translate(237.000000, 335.000000)">
+                  <polyline class="st0" id="Fill-35"
+                    points="-218.7,-308.6 -216.7,-310.6 -205,-298.8 -193.3,-310.6 -191.3,-308.6 -205,-294.9      -218.7,-308.6    " />
+                </g>
+              </g>
+            </svg>
+          </a>
+          <div class="nav-dropdown" id="dropdown-pc">
+            <div class="dropdown-background"></div>
+            <div class="category">
+              <p>Platform</p>
+              <a href="#" class="btn">View All</a>
+            </div>
+
+            <div class="sub-items">
+              <a href="#">
+                <p>Steam</p>
+              </a>
+
+              <a href="#">
+                <p>Steam</p>
+              </a>
+
+              <a href="#">
+                <p>Steam</p>
+              </a>
+
+              <a href="#">
+                <p>Steam</p>
+              </a>
+
+              <a href="#">
+                <p>Steam</p>
+              </a>
+            </div>
+
+            <div class="category">
+              <p>Prepaid Cards</p>
+              <a href="#" class="btn">View All</a>
+            </div>
+
+            <div class="sub-items">
+              <a href="#">
+                <p>Steam</p>
+              </a>
+
+              <a href="#">
+                <p>Steam</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="search-bar" id="search-input">
+            <input type="text" placeholder="Minicraft,rpg, multiplayer " />
+            <div class="search-icon">
+              <svg height="48" viewBox="0 0 48 48">
+                <path
+                  d="M31 28h-1.59l-.55-.55c1.96-2.27 3.14-5.22 3.14-8.45 0-7.18-5.82-13-13-13s-13 5.82-13 13 5.82 13 13 13c3.23 0 6.18-1.18 8.45-3.13l.55.55v1.58l10 9.98 2.98-2.98-9.98-10zm-12 0c-4.97 0-9-4.03-9-9s4.03-9 9-9 9 4.03 9 9-4.03 9-9 9z" />
+                <path d="M0 0h48v48h-48z" fill="none" />
+              </svg>
+            </div>
+
+            <div class="close-icon">
+              <svg height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M38 12.83l-2.83-2.83-11.17 11.17-11.17-11.17-2.83 2.83 11.17 11.17-11.17 11.17 2.83 2.83 11.17-11.17 11.17 11.17 2.83-2.83-11.17-11.17z" />
+                <path d="M0 0h48v48h-48z" fill="none" />
+              </svg>
             </div>
           </div>
         </div>
-      </section>
-    </div>
-    <script type="module" src="/main.js"></script>
-  </body>
+      </div>
+
+      <div class="user-nav">
+        <a href="#"><svg id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"
+            width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="PL_x5F_Cart_1_">
+              <path d="M441,416c0,13.8-11.2,25-25,25s-25-11.2-25-25s11.2-25,25-25S441,402.2,441,416z" />
+              <path d="M153,416c0,13.8-11.2,25-25,25s-25-11.2-25-25s11.2-25,25-25S153,402.2,153,416z" />
+              <path
+                d="M127.9,96l-11.1-32H64v17h41.7l57.5,213.3c-32.4,11.3-59.9,37.9-65.3,73.1C96,379.1,96,384,96,384h352v-16.7H115.3   c4.7-31.6,38.8-58.1,74.1-62.5s243.3-34.2,243.3-34.2L448,96H127.9z M416,256l-235,33.3c-0.9,0.2-1.8,0.4-2.7,0.6l-44.7-177.3   h297.7L416,256z" />
+            </g>
+          </svg> </a>
+
+        <a href="#"> <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <title />
+            <g id="about">
+              <path d="M16,16A7,7,0,1,0,9,9,7,7,0,0,0,16,16ZM16,4a5,5,0,1,1-5,5A5,5,0,0,1,16,4Z" />
+              <path
+                d="M17,18H15A11,11,0,0,0,4,29a1,1,0,0,0,1,1H27a1,1,0,0,0,1-1A11,11,0,0,0,17,18ZM6.06,28A9,9,0,0,1,15,20h2a9,9,0,0,1,8.94,8Z" />
+            </g>
+          </svg> </a>
+      </div>
+    </nav>
+
+    <!-- main header  -->
+    <section class="main-header">
+      <div class="header-img">
+        <img
+          src="https://images.pexels.com/photos/1677794/pexels-photo-1677794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Header Image" />
+      </div>
+
+      <div class="header-content">
+        <div class="sub-txt">In 15 days</div>
+        <h2 class="header-title">
+          Starfield Digital Premium Edition + Early Access
+        </h2>
+        <div class="price">
+          <div class="discount-amount">-25%</div>
+          <div class="show-price">74.89€</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Showcase section -->
+    <section class="product-card-wrapper">
+      <div class="top-section">
+        <div class="section-title">Trending</div>
+        <a href="#" class="cta-btn">View All</a>
+      </div>
+
+      <div class="card-section">
+        <div class="card-item">
+          <div class="card-img">
+            <img
+              src="https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="" />
+            <div class="discount-price">-26%</div>
+          </div>
+          <div class="product-details-wrapper">
+            <div class="product-name">Sengoku Dynasty</div>
+            <div class="product-price">19.99$</div>
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="card-img">
+            <img
+              src="https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="" />
+            <div class="discount-price">-26%</div>
+          </div>
+          <div class="product-details-wrapper">
+            <div class="product-name">Sengoku Dynasty</div>
+            <div class="product-price">19.99$</div>
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="card-img">
+            <img
+              src="https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="" />
+            <div class="discount-price">-26%</div>
+          </div>
+          <div class="product-details-wrapper">
+            <div class="product-name">Sengoku Dynasty</div>
+            <div class="product-price">19.99$</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>
